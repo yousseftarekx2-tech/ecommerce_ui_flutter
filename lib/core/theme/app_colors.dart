@@ -18,4 +18,5 @@ class AppColors {
   // ألوان إضافية للنجاح أو الخطأ (لو هتحتاجها في الـ Validation)
   static const Color error = Color(0xFFD32F2F);
   static const Color success = Color(0xFF388E3C);
+  
 }

@@ -32,7 +32,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               children: [
                 Column(
                   children: [
-                    Container(
+                    SizedBox(
                       width: double.infinity,
                       height: screenHeight * 0.5,
                       child: Image.asset(
@@ -73,7 +73,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 ),
                 Column(
                   children: [
-                    Container(
+                    SizedBox(
                       width: double.infinity,
                       height: screenHeight * 0.5,
                       child: Image.asset(
@@ -114,7 +114,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 ),
                 Column(
                   children: [
-                    Container(
+                    SizedBox(
                       width: double.infinity,
                       height: screenHeight * 0.5,
                       child: Image.asset(
@@ -157,7 +157,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
             ),
           ),
           const SizedBox(height: 20),
-          Container(
+          SizedBox(
             height: 10,
             child: Image.asset(
               _currentPage == 0
